@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+    </style>
+</head>
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://www.bing.com/th?id=OIP.QlATn-kLHR15tKoWfdAn6AHaHa&w=206&h=206&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" width="40" height="40" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.bing.com/search?q=hivi&filters=dtbk:%22MCFvdmVydmlldyFvdmVydmlldyFkYzYxM2U1OC0wY2E1LTQ5MTQtYjA2OS0zZTNjMzBkZjhkNzg%3d%22+sid:%22dc613e58-0ca5-4914-b069-3e3c30df8d78%22+tphint:%22f%22&FORM=DEPNAV">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Members
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> Neida Aleida (vokal) </a></li>
+                  <li><a class="dropdown-item" href="#"> Ilham Aditama (vokal) </a></li>
+                  <li><a class="dropdown-item" href="#"> Ezra Mandira (vokal/gitar) </a></li>
+                  <li><a class="dropdown-item" href="#"> Febrian Nindyo Purbowiseso (vokal/gitar) </a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   
+    <!-- Nav Bar -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col align-self-center">
+                <h1 style="font-family: 'Cinzel', serif;">Hello!<br>Welcome to My Website </h1>
+                <p class="mt-3 mb-4">
+                    Let's know more about Hi-Vi!
+                </p>
+                <a class="btn btn-success" href="#content" role="button">Start Now</a>
+                </div>
+                <div class="col d-none d-lg-block d-xl-block"> 
+                    <img src="data:image/jpeg;base64,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" alt="" style="padding-top: 5px; " width="600" height="600">
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr style="height: full cover;background: https://th.bing.com/th/id/OIP.9WEXKtN1OFamdRPr7IDg7AHaEK?w=195&h=110&c=7&r=0&o=5&dpr=1.5&pid=1.7; ">
+   
+    <div class="row" id="content">
+    <div class="card" style="width: 18rem; display: flex; margin-left: auto;margin-right: auto;  justify-content: center;flex-wrap: wrap ;align-items: center; margin-top: 50px;">
+      
+      <img src="assets/logo/2048px-HTML5_logo_and_wordmark.svg.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HTML</h5>
+        <p class="card-text">HTML is the standard markup language for Web pages.
+
+          With HTML you can create your own Website.
+          
+          HTML is easy to learn - You will enjoy it!</p><br><br>
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank" class="btn btn-success">Learn HTML</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; display: flex; margin-left: auto;margin-right: auto;  justify-content: center;flex-wrap: wrap ;align-items: center;; margin-top: 50px;">
+      <img src="assets/logo/1452px-CSS3_logo_and_wordmark.svg.png" style="height: 286px;width: 210px;" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CSS</h5>
+        <p class="card-text">CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.
+          
+          This tutorial will teach you CSS from basic to advanced.</p><br>
+        <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="btn btn-success">Learn CSS</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; display: flex; margin-left: auto;margin-right: auto;  justify-content: center;flex-wrap: wrap ;align-items: center; margin-top: 50px;">
+      <img src="assets/logo/js-logo.jpg" style="height: 286px;width: 200px; " class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">JavaScript</h5>
+        <p class="card-text">JavaScript is the world's most popular programming language.
+
+          JavaScript is the programming language of the Web.
+          
+          JavaScript is easy to learn.
+          
+          This tutorial will teach you JavaScript from basic to advanced.
+          
+          </p>
+        <a href="https://www.w3schools.com/js/default.asp" target="_blank" class="btn btn-success">Learn JavaScript</a>
+      </div>
+    </div>    
+    <div class="card" style="width: 18rem; display: flex; margin-left: auto;margin-right: auto;  justify-content: center;flex-wrap: wrap ;align-items: center; margin-top: 50px;">
+      <img src="assets/logo/php_PNG10.png" style="height: 286px;" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PHP</h5>
+        <p class="card-text">PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.
+
+          PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.</p>
+        <a href="https://www.w3schools.com/php/default.asp" target="_blank" class="btn btn-success">Learn PHP</a>
+      </div>
+    </div>    
+    
+    </div>
+    <br>
+    <br>
+    <br> -->
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.js"></script>
+</body>
+</html>
